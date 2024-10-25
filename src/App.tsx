@@ -1,10 +1,10 @@
-import olinfoImg from "@/assets/olinfo.png";
+import { Logo } from "./components/logo";
 
 function App() {
   return (
     <>
-      <div>
-        <img src={olinfoImg} />
+      <div className="bg-light-black min-h-screen font-primary">
+        <Logo />
       </div>
     </>
   );
