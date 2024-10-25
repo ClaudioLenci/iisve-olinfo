@@ -1,7 +1,11 @@
+import olinfoImg from "@/assets/olinfo.png";
+
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <img src={olinfoImg} />
+      </div>
     </>
   );
 }
