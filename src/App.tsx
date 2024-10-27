@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="bg-light-black text-text-white min-h-screen font-primary">
         <Title />
-
+        <div className="h-12" />
         <Materials />
       </div>
     </>
