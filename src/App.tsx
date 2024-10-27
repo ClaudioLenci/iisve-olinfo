@@ -1,10 +1,10 @@
-import { Logo } from "./components/logo";
+import { Title } from "./components/title";
 
 function App() {
   return (
     <>
-      <div className="bg-light-black min-h-screen font-primary">
-        <Logo />
+      <div className="bg-light-black text-text-white min-h-screen font-primary">
+        <Title />
       </div>
     </>
   );
