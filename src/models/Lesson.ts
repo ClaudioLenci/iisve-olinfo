@@ -1,7 +1,7 @@
 export type Lesson = {
   id: number;
   date: string;
-  level: "base" | "advanced";
+  level: string;
   topic: string;
   videoLink?: string;
 };

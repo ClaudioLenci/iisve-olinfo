@@ -1,18 +1,9 @@
 import { Lesson } from "@/models/Lesson";
 import { LessonCard } from "./lesson-card";
+import LessonsList from "@/lessons.json";
 
 export function LessonList() {
-  const lessons: Lesson[] = [
-    {
-      id: 1,
-      date: "2021-09-01",
-      level: "base",
-      topic: "Introduction to React",
-      videoLink: "https://www.youtube.com/watch?v=0KlRgFEEz0g",
-    },
-    { id: 2, date: "2021-09-08", level: "advanced", topic: "React Hooks" },
-    { id: 3, date: "2021-09-15", level: "base", topic: "React Router" },
-  ];
+  const lessons: Lesson[] = LessonsList;
   /*const today = new Date().toISOString().split("T")[0];
   /*const previousLessons = lessons.filter((lesson) => lesson.date < today);
   const upcomingLessons = lessons.filter((lesson) => lesson.date >= today);*/

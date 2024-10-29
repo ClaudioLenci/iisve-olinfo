@@ -15,25 +15,25 @@ export function LessonCard({lesson}: {lesson: Lesson}) {
           className={`inline-block text-xs font-medium px-2 py-1 rounded-md ${
             lesson.level === "base"
             ? "bg-green-100 text-green-700"
-            : "bg-red-100 text-red-700"
+            : "bg-orange-100 text-orange-700"
           }`}
         >
           {lesson.level}
         </span>
-        {lesson.videoLink && (
-          <div className="mt-4">
-            <a
-              href={lesson.videoLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-top justify-center gap-x-1 bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors duration-200"
-            >
-              <p>Guarda</p>
-              <PlayIcon className="size-5"/>
-            </a>
-          </div>
-        )}
       </div>
+      {lesson.videoLink && (
+        <div className="mt-4">
+          <a
+            href={lesson.videoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-top justify-center gap-x-1 bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors duration-200"
+          >
+            <p>Guarda</p>
+            <PlayIcon className="size-5"/>
+          </a>
+        </div>
+      )}
     </div>
   );
 }
