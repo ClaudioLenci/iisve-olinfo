@@ -1,5 +1,6 @@
 import { Title } from "@/components/title";
 import Materials from "./components/materials";
+import LessonList from "./components/lessons";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
         <Title />
         <div className="h-12" />
         <Materials />
+        <div className="h-12" />
+        <LessonList />
       </div>
     </>
   );
