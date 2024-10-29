@@ -1,9 +1,4 @@
-type Material = {
-  id: string;
-  title: string;
-  description: string;
-  link: string;
-};
+import { Material } from "@/models/Material";
 
 export function MaterialCard({ material }: { material: Material }) {
   return (
