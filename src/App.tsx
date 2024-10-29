@@ -1,6 +1,7 @@
 import { Title } from "@/components/title";
-import Materials from "./components/materials";
-import LessonList from "./components/lessons";
+import Materials from "@/components/materials";
+import LessonList from "@/components/lessons";
+import { DiscordInvite } from "@/components/discord-invite";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         <Materials />
         <div className="h-12" />
         <LessonList />
+        <div className="h-12" />
+        <DiscordInvite />
+        <div className="h-12" />
       </div>
     </>
   );
