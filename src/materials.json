@@ -16,5 +16,29 @@
         "title": "Complessità computazionale",
         "description": "",
         "link": "/complexity/complessita_computazionale.pdf"
+    },
+    {
+        "id": "4",
+        "title": "The Algorithm Design Manual",
+        "description": "",
+        "link": "/books/2008_Book_TheAlgorithmDesignManual.pdf"
+    },
+    {
+        "id": "5",
+        "title": "Competitive Programmer’s Handbook",
+        "description": "",
+        "link": "/books/Competitive_Programmer_Handbook.pdf"
+    },
+    {
+        "id": "6",
+        "title": "Array Queries",
+        "description": "",
+        "link": "/datastructures/array_query.pdf"
+    },
+    {
+        "id": "7",
+        "title": "Strutture Dati",
+        "description": "",
+        "link": "/datastructures/strutture_dati.pdf"
     }
 ]
