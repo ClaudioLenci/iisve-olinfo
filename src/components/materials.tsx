@@ -1,12 +1,6 @@
 import materialsList from "@/materials.json";
 import { MaterialCard } from "./material-card";
-
-type Material = {
-  id: string;
-  title: string;
-  description: string;
-  link: string;
-};
+import { Material } from "@/models/Material";
 
 export default function Materials() {
   const materials: Material[] = materialsList;

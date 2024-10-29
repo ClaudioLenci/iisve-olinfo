@@ -1,12 +1,5 @@
+import { Lesson } from "@/models/Lesson";
 import { LessonCard } from "./lesson-card";
-
-type Lesson = {
-  id: number;
-  date: string;
-  level: "base" | "advanced";
-  topic: string;
-  videoLink?: string;
-};
 
 export function LessonList() {
   const lessons: Lesson[] = [

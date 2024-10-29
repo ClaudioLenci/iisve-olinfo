@@ -1,12 +1,5 @@
+import { Lesson } from "@/models/Lesson";
 import { PlayIcon } from "@heroicons/react/24/solid";
-
-type Lesson = {
-    id: number;
-    date: string;
-    level: "base" | "advanced";
-    topic: string;
-    videoLink?: string;
-};
 
 export function LessonCard({lesson}: {lesson: Lesson}) {
   return (
@@ -14,7 +7,7 @@ export function LessonCard({lesson}: {lesson: Lesson}) {
       className="bg-gray1 shadow-md rounded-lg p-4 border border-gray2 hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between"
     >
       <div>
-        <p className="text-sm mb-1">{lesson.date }</p>
+        <p className="text-sm mb-1">{lesson.date}</p>
         <h3 className="text-xl font-semibold mb-2 text-text-white2">
           {lesson.topic}
         </h3>
