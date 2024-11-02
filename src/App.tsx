@@ -2,6 +2,7 @@ import { Title } from "@/components/title";
 import Materials from "@/components/materials";
 import LessonList from "@/components/lessons";
 import { DiscordInvite } from "@/components/discord-invite";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <DiscordInvite />
         <div className="h-12" />
       </div>
+      <Analytics />
     </>
   );
 }
