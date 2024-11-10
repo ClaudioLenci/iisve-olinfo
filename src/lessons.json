@@ -26,5 +26,12 @@
         "level": "advanced",
         "date": "1/11/2024",
         "videoLink": "https://youtu.be/eSJ-PKu8PCA"
+    },
+    {
+        "id": 5,
+        "topic": "Array e cicli in c++",
+        "level": "base",
+        "date": "7/11/2024",
+        "videoLink": "https://youtu.be/VHCANgJ1IsY"
     }
 ]
