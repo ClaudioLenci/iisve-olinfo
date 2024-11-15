@@ -33,5 +33,11 @@
         "level": "base",
         "date": "7/11/2024",
         "videoLink": "https://youtu.be/VHCANgJ1IsY"
+    },
+    {
+        "id": 6,
+        "topic": "Esercizi",
+        "level": "base",
+        "date": "14/11/2024"
     }
 ]
